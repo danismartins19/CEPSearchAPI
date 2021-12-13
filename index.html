@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Busca de Cidade VIA CEP</h1>
+    <input type="text" id="CEPValue">
+    <input type="button" value="Buscar CEP" id="search">
+    <div class="wait">Carregando...</div>
+    <div class="resultado">
+        <div class="linha">
+            <span>Cidade: </span>
+            <span class="cidade"></span>
+        </div>
+        <div class="linha">
+            <span>Estado: </span>
+            <span class="estado"></span>
+        </div>
+        <div class="linha">
+            <span>CEP: </span>
+            <span class="cep"></span>
+        </div>
+        <div class="linha">
+            <span>Código IBGE: </span>
+            <span class="ibge"></span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
